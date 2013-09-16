@@ -1,0 +1,12 @@
+Application has thrown an uncaught exception and is terminated:
+TypeError: Cannot call method 'call' of undefined
+    at IncomingMessage.SendGrid.send (C:\Users\Chris\Documents\My Web Sites\GoogleJavascriptExperiment\node_modules\sendgrid-nodejs\lib\sendgrid.js:74:18)
+    at IncomingMessage.EventEmitter.emit (events.js:126:20)
+    at IncomingMessage._emitEnd (http.js:366:10)
+    at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+    at CleartextStream.socketOnData [as ondata] (http.js:1472:20)
+    at CleartextStream.CryptoStream._push (tls.js:544:27)
+    at SecurePair.cycle (tls.js:898:20)
+    at EncryptedStream.CryptoStream.write (tls.js:285:13)
+    at Socket.ondata (stream.js:38:26)
+    at Socket.EventEmitter.emit (events.js:96:17)
