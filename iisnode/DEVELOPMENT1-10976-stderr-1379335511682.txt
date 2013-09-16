@@ -1,0 +1,16 @@
+SyntaxError: C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\views\index.jade:8
+    6|     h2 {{message}}
+    7|     p
+  > 8|       a(href=http://blog.techdept.co.uk/2013/09/an-experiment-with-google-and-javascript/)
+
+Unexpected token :
+    at Function (unknown source)
+    at assertExpression (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Users\chris.foster\SkyDrive\Documents\Source\GoogleJavascriptExperiment\node_modules\jade\lib\parser.js:722:26)
