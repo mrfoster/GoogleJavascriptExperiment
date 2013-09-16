@@ -12,7 +12,7 @@ exports.index = function (req, res) {
 
     request(url, function (error, response, body) {
         if (!error && response.statusCode == 200) {
-            if (parseInt(JSON.parse(body).searchInformation.totalResults) == 0) {
+            if (parseInt(JSON.parse(body).searchInformation.totalResults) > 0) {
                 sendgrid.send({
                     to: 'christopherfoster@hotmail.co.uk',
                     from: 'christopherfoster@hotmail.co.uk',
